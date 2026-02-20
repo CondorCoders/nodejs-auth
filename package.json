@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.ts",
+  "type": "module",
+  "scripts": {
+    "start": "node --watch app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
